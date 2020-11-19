@@ -1,10 +1,10 @@
-package com.dashu.helloworld;
+package com.dashu.properties;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HellowordApplicationTests {
+class PropertiesApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,4 +1,4 @@
-package com.dashu.helloworld;
+package com.dashu.properties;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -14,7 +14,7 @@ import java.net.UnknownHostException;
  * SpringBoot启动类
  * </p>
  *
- * @package: com.dashu.helloworld
+ * @package: com.dashu.properties
  * @description: SpringBoot启动类
  * @author: dashu
  * @date: Created in 2020/11/19
@@ -24,10 +24,10 @@ import java.net.UnknownHostException;
  */
 @SpringBootApplication
 @Slf4j
-public class HelloworldApplication {
+public class PropertiesApplication {
 
     public static void main(String[] args) throws UnknownHostException {
-        ConfigurableApplicationContext application = SpringApplication.run(HelloworldApplication.class, args);
+        ConfigurableApplicationContext application = SpringApplication.run(PropertiesApplication.class, args);
         Environment env = application.getEnvironment();
         //获取本机ip
         String ip = InetAddress.getLocalHost().getHostAddress();

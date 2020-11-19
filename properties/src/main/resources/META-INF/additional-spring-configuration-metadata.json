@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "pom.name",
+      "description": "Default value is name in pom.xml.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "pom.version",
+      "description": "Default value is version in pom.xml.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "pom.packaging",
+      "description": "Default value is packaging in pom.xml.",
+      "type": "java.lang.String"
+    }
+  ]
+}

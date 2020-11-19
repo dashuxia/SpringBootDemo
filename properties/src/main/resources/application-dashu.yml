@@ -1,0 +1,10 @@
+#配置环境参数
+pom:
+  name: @artifactId@
+  version: @version@
+  packaging: @packaging@
+user:
+  name: dashu
+  website: https://blog.csdn.net/weixin_43521890?spm=1000.2115.3001.5113
+  email: dashuplus@163.con
+
